@@ -111,7 +111,13 @@ p {
 
 @media (hover: hover) and (min-device-width: 1240px) and (max-device-width: 2480px) {
   body {
-    background-color: #a82ead;
+    background-color: #0ea129;
+  }
+}
+
+@media (hover: hover) and (min-device-width: 2480px) and (max-device-width: 3640px) {
+  body {
+    background-color: #2d1ca0;
   }
 }
 /*# sourceMappingURL=styles.css.map */

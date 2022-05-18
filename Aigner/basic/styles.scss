@@ -94,9 +94,15 @@ p {
     background-color: rgb(168, 46, 173);
   }
 }
-
-@media (hover:hover) and (min-device-width:1240px) and(max-device-width:2480px) { //for Devices with mouse
+//for Devices with mouse
+@media (hover:hover) and (min-device-width:1240px) and(max-device-width:2480px) { 
   body{
-    background-color: rgb(168, 46, 173);
+    background-color: rgb(14, 161, 41);
+  }
+}
+//for Devices with mouse 4k
+@media (hover:hover) and (min-device-width:2480px) and(max-device-width:3640px) { 
+  body{
+    background-color: rgb(45, 28, 160);
   }
 }
