@@ -1,12 +1,16 @@
+//variables to be called later in scss code, injected the propper way in css
+
 $grid: repeat(4, 1fr);
 $main-font: "Times New Roman";
 $side-font: helvetica, sans-serif;
 $nav-font: Arial, bold;
+
+//Paragraphs have margins which can move content
 p {
   margin: 0;
 }
 
-
+// Not best practice to use grid for a whole page
 .container{
   display: inline-grid;
   grid-template: $grid / $grid;
