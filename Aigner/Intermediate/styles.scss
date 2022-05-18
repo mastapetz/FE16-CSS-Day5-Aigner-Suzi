@@ -1,5 +1,7 @@
 $box-borders: 1px solid black;
 $bgcolor-bars: pink;
+$bgcolor-gen: #3F1516;
+             
 
 .top-navbar{
     display:flex;
@@ -35,6 +37,30 @@ $bgcolor-bars: pink;
     }
 }
 
-.bigbox{
-    display: flex;
+*{
+    overflow: hidden;
+}
+
+body{
+    background-color: $bgcolor-gen;
+    text-align: center;
+    width: 90vw; 
+    height: 60vh;
+    
+}
+
+.hero{
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+        .item{
+            max-width: fit-content;
+            max-height: fit-content;
+            color:peachpuff;
+        }
+        .item2{
+            grid-row: 1/2;
+            grid-column: 2/4;
+            // object-fit: fill;
+            height:800px;
+        }
 }

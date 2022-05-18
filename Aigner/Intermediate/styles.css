@@ -41,9 +41,42 @@
   background: #4b6dc4;
 }
 
-.bigbox {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+* {
+  overflow: hidden;
+}
+
+body {
+  background-color: #3F1516;
+  text-align: center;
+  width: 90vw;
+  height: 60vh;
+}
+
+.hero {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+  -ms-grid-columns: (1fr)[3];
+      grid-template: repeat(3, 1fr)/repeat(3, 1fr);
+}
+
+.hero .item {
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  color: peachpuff;
+}
+
+.hero .item2 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+  height: 800px;
 }
 /*# sourceMappingURL=styles.css.map */
