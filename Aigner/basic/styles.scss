@@ -15,7 +15,7 @@ p {
   display: inline-grid;
   grid-template: $grid / $grid;
   height: 60vh;
-  width: 90vw;
+  width: 50vw;
   object-fit:fill;
   text-align: center;
 
@@ -45,6 +45,7 @@ p {
     grid-row: 2/4;
     font-family: $side-font;
     background-color: #33CCFF;
+    overflow: auto;
    
   }
   .column2{
@@ -52,12 +53,16 @@ p {
     grid-row: 2/4;
     font-family: $main-font;
     background-color: #00FFFF;
+    overflow: auto;
+
   }
   .column3{
     grid-column: 4/5;
     grid-row: 2/4;
     font-family: $side-font;
     background-color: #9932CC;
+    overflow: auto;
+
   }
 
   footer{
@@ -72,5 +77,20 @@ p {
 
 }
 
+@media only screen and (min-device-width:320px) and(max-device-width:480px) { //for old iPhones
+  body{
+    background-color: lightcoral;
+  }
+}
 
+@media only screen and (min-device-width:375px) and(max-device-width:812px) { //for newer iPhones
+  body{
+    background-color: rgb(219, 139, 19);
+  }
+}
 
+@media only screen and (min-device-width:768x) and(max-device-width:1024px) { //for smaller iPads
+  body{
+    background-color: rgb(168, 46, 173);
+  }
+}

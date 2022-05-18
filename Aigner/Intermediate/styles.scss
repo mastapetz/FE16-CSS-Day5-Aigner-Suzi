@@ -1,0 +1,40 @@
+$box-borders: 1px solid black;
+$bgcolor-bars: pink;
+
+.top-navbar{
+    display:flex;
+    text-align: center;
+    justify-content:flex-start;
+    background-color: $bgcolor-bars;
+    color: darkmagenta;
+
+    ul{
+        align-items: center;
+
+        display:flex;
+        li {
+            display: inline;
+
+        }
+        .nav-buttons{
+            border: 1px ;
+            background: #8C181B;
+            color: white;
+            padding: 10px;
+            border-radius: 25px/11px;
+            margin: 12px;
+            width: 85px;
+            text-align: center;
+            border: none;
+            font-size: 15pt;
+        }
+        .nav-buttons:hover{
+                width: 200px;
+                background: #4b6dc4;                
+            }
+    }
+}
+
+.bigbox{
+    display: flex;
+}

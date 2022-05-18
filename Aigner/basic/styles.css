@@ -9,7 +9,7 @@ p {
   -ms-grid-columns: (1fr)[4];
       grid-template: repeat(4, 1fr)/repeat(4, 1fr);
   height: 60vh;
-  width: 90vw;
+  width: 50vw;
   -o-object-fit: fill;
      object-fit: fill;
   text-align: center;
@@ -51,6 +51,7 @@ p {
   grid-row: 2/4;
   font-family: helvetica, sans-serif;
   background-color: #33CCFF;
+  overflow: auto;
 }
 
 .container .column2 {
@@ -62,6 +63,7 @@ p {
   grid-row: 2/4;
   font-family: "Times New Roman";
   background-color: #00FFFF;
+  overflow: auto;
 }
 
 .container .column3 {
@@ -73,6 +75,7 @@ p {
   grid-row: 2/4;
   font-family: helvetica, sans-serif;
   background-color: #9932CC;
+  overflow: auto;
 }
 
 .container footer {
@@ -86,5 +89,23 @@ p {
   background-color: black;
   color: white;
   text-align: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  body {
+    background-color: lightcoral;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  body {
+    background-color: #db8b13;
+  }
+}
+
+@media only screen and (min-device-width: 768x) and (max-device-width: 1024px) {
+  body {
+    background-color: #a82ead;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
