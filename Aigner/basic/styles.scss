@@ -89,7 +89,13 @@ p {
   }
 }
 
-@media only screen and (min-device-width:768x) and(max-device-width:1024px) { //for smaller iPads
+@media only screen and (min-device-width:768px) and(max-device-width:1024px) { //for smaller iPads
+  body{
+    background-color: rgb(168, 46, 173);
+  }
+}
+
+@media (hover:hover) and (min-device-width:1240px) and(max-device-width:2480px) { //for Devices with mouse
   body{
     background-color: rgb(168, 46, 173);
   }
