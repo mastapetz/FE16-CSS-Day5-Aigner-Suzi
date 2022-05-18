@@ -2,7 +2,7 @@ Share an example of something you learned about CSS3.
 Without usage of special things css does not take variables, one solution would be SASS
 
 What is the difference between SASS and SCSS?
-Sass works with identation, SCSS with curly brackets
+Sass works with identation no  semicolon needed, SCSS with curly brackets
 
 What is the advantage of using SASS?
 Usage of indentation makes it legible similar to html
